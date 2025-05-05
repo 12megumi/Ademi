@@ -270,9 +270,9 @@
     }
 
     let message = "";
-    if (score === 6) message = "6/6! You totally know me! 💯✨";
-    else if (score >= 4) message = score + "/6! You know me pretty well! 🤗";
-    else message = score + "/6! We need more cozy chats! ☕";
+    if (score === 15) message = "15/15! You totally know me! 💯✨";
+    else if (score >= 10) message = score + "/6! You know me pretty well! 🤗";
+    else message = score + "/"5! We need more cozy chats! ☕";
 
     document.getElementById("moodResult").textContent = moodMessage;
     document.getElementById("scoreResult").textContent = message;
