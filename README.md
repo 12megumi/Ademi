@@ -97,7 +97,8 @@
 
   <div class="slide">
     <strong>3. What food do I love the most?</strong><br>
-    <label><input type="radio" name="q1" value="pizza"> 🍕 Pizza</label>
+    <label><input type="radio" name="q1" value="Burger"> 🍔 Burger</label>
+    <label><input type="radio" name="q1" value="Rice"> 🍚 Rice</label>
     <label><input type="radio" name="q1" value="noodles"> 🍜 Instant Noodles</label>
     <button type="button" onclick="nextSlide()">Next</button>
   </div>
@@ -105,6 +106,7 @@
   <div class="slide">
     <strong>4. What do I prefer on weekends?</strong><br>
     <label><input type="radio" name="q2" value="sleep"> 🛏 Sleep all day</label>
+    <label><input type="radio" name="q2" value="Watching Movie"> 🎬 Watching Movie</label>
     <label><input type="radio" name="q2" value="walk"> 🏞 Go out for a walk</label>
     <button type="button" onclick="nextSlide()">Next</button>
   </div>
@@ -112,13 +114,15 @@
   <div class="slide">
     <strong>5. My favorite animal is:</strong><br>
     <label><input type="radio" name="q3" value="cat"> 🐱 Cat</label>
+    <label><input type="radio" name="q3" value="Fisch"> 🐳 Fisch</label>
     <label><input type="radio" name="q3" value="dog"> 🐶 Dog</label>
     <button type="button" onclick="nextSlide()">Next</button>
   </div>
 
   <div class="slide">
-    <strong>6. When I’m upset, I usually...</strong><br>
+    <strong>6. When I’m Stress, I usually...</strong><br>
     <label><input type="radio" name="q4" value="music"> 🎧 Listen to music</label>
+    <label><input type="radio" name="q4" value="Crying"> 😭 Crying</label>
     <label><input type="radio" name="q4" value="sleep"> 💤 Sleep it off</label>
     <button type="button" onclick="showResult()">See Result</button>
   </div>
@@ -129,8 +133,8 @@
   <h2>✨ Your Quiz Result ✨</h2>
   <p id="moodResult"></p>
   <p id="scoreResult"></p>
-  <p><strong>I just wanna say: keep going today, tomorrow, and every day!</strong><br>
-  Don’t forget: you’re amazing, smart, beautiful, and… I love u! ❤️🌈</p>
+  <p><strong>I just wanna say: keep going today, tomorrow, and every day and good luck for your last exam i know you will gonna make it!</strong><br>
+  becouse: you’re amazing, smart, beautiful, and… I love u! ❤️🌈</p>
 </div>
 
 <div class="message-box" id="messageBox">
