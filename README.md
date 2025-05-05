@@ -213,17 +213,7 @@
     Life can be confusing, loud, and overwhelming...  
     but I want you to know that you're not alone.<br>
     You're smart, beautiful, and honestly — one of my favorite humans.<br><br>
-    Even if you got all the answers wrong...  
-    <div class="slide">
-  <h2>Just one more thing...</h2>
-  <p style="font-size: 1.1em; line-height: 1.6; text-align: center; padding: 0 20px;">
-    Thank you for playing this silly little quiz.<br>
-    I hope it made you smile, even just a little.<br><br>
-    Life can be confusing, loud, and overwhelming...  
-    but I want you to know that you're not alone.<br>
-    You're smart, beautiful, and honestly — one of my favorite humans.<br><br>
-    Goodluck for your last Exam, i know you will gonna make it couse you always do the best..  
-    you got here, and that means the world to me.<br><br>
+    Goodluck for your last Exam, i know you will gonna make it couse you always do the best.. you got here, and that means the world to me.<br><br>
     <strong>I love you. Please keep going.</strong>
   </p>
 
