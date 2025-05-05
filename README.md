@@ -222,16 +222,10 @@
     Life can be confusing, loud, and overwhelming...  
     but I want you to know that you're not alone.<br>
     You're smart, beautiful, and honestly — one of my favorite humans.<br><br>
-    Goodluck for your last Exam, i know you will gonna make it ..  
+    Goodluck for your last Exam, i know you will gonna make it couse you always do the best..  
     you got here, and that means the world to me.<br><br>
     <strong>I love you. Please keep going.</strong>
   </p>
-  <button type="button" onclick="showResult()">See Result</button>
-</div>you got here, and that means the world to me.<br><br>
-    <strong>I love you. Please keep going.</strong>
-  </p>
-  <button type="button" onclick="showResult()">See Result</button>
-</div>
 
 <div class="message-box" id="messageBox">
   <h3>📩 Send Me a Message!</h3>
