@@ -120,10 +120,82 @@
   </div>
 
   <div class="slide">
-    <strong>6. When I’m Stress, I usually...</strong><br>
-    <label><input type="radio" name="q4" value="music"> 🎧 Listen to music</label>
-    <label><input type="radio" name="q4" value="Crying"> 😭 Crying</label>
-    <label><input type="radio" name="q4" value="sleep"> 💤 Sleep it off</label>
+    <strong>6. If i ware a Fruit, What would i be ?</strong><br>
+    <label><input type="radio" name="q4" value="Pineapple"> 🍍 Pineapple (sweet but spiky)</label>
+    <label><input type="radio" name="q4" value="Strawberry"> 🍓 Strawberry(tiny and cute)</label>
+    <label><input type="radio" name="q4" value="Avocado"> 🥑 Avocado(extra and mysterious)</label>
+    <button type="button" onclick="nextSlide()">Next</button>
+  </div>
+
+  <div class="slide">
+    <strong>7. What's my hidden Supperpower ?</strong><br>
+    <label><input type="radio" name="q5" value="Sleeping"> 😴 Sleeping anywhere and anytime</label>
+    <label><input type="radio" name="q5" value="Eassy"> 🫂 Easy to get along with</label>
+    <label><input type="radio" name="q5" value="singing"> 🎤 singing badly but confidently</label>
+    <button type="button" onclick="nextSlide()">Next</button>
+  </div>
+
+  <div class="slide">
+    <strong>8. If i were an animal in my past life, i'd be ?</strong><br>
+    <label><input type="radio" name="q6" value="Koala"> 🐨 Koala(sleep 20 hours a day)</label>
+    <label><input type="radio" name="q6" value="Cat"> 🐈 Cat(pampered and dramatic)</label>
+    <label><input type="radio" name="q6" value="Turtle"> 🐢 Turtle(slow but steady)</label>
+    <button type="button" onclick="nextSlide()">Next</button>
+  </div>
+
+  <div class="slide">
+    <strong>9. What's my most common reaction to a sudden plan?</strong><br>
+    <label><input type="radio" name="q7" value="Panic"> 😱 Panic first,ask questions later</label>
+    <label><input type="radio" name="q7" value="i'm in"> 🤔 say "i'm in" and regret later</label>
+    <label><input type="radio" name="q7" value="No"> 🙅‍♂️ say "No" but secretly wants to join</label>
+    <button type="button" onclick="nextSlide()">Next</button>
+  </div>
+
+  <div class="slide">
+    <strong>10. What's my favorite phrase when i'm confused ?</strong><br>
+    <label><input type="radio" name="q8" value="hah"> 😱 "HAH?"</label>
+    <label><input type="radio" name="q8" value="What"> 😲 "wait...What?"</label>
+    <label><input type="radio" name="q8" value="nothing"> 🙂 "nothing"</label>
+    <button type="button" onclick="nextSlide()">Next</button>
+  </div>
+
+  <div class="slide">
+    <strong>11. What's my midnight crisis activity ?</strong><br>
+    <label><input type="radio" name="q9" value="Food"> 🍕 Ordering Food i don't need</label>
+    <label><input type="radio" name="q9" value="shopping"> 🛒 Adding random stuff to my cart</label>
+    <label><input type="radio" name="q9" value="stalking"> 🤳Stalking my old photo</label>
+    <button type="button" onclick="nextSlide()">Next</button>
+  </div>
+
+  <div class="slide">
+    <strong>12. What's my wierdest habit?</strong><br>
+    <label><input type="radio" name="q10" value="Talk"> 🗣️ Talking to myself</label>
+    <label><input type="radio" name="q10" value="Laughing"> 🤣 Laughing at my own joke</label>
+    <label><input type="radio" name="q10" value="overreact"> 😶‍🌫️ overreact</label>
+    <button type="button" onclick="nextSlide()">Next</button>
+  </div>
+
+  <div class="slide">
+    <strong>13. If my life had a background music ,it'd be ?</strong><br>
+    <label><input type="radio" name="q11" value="Dramatic"> 🎻 Dramatic violin</label>
+    <label><input type="radio" name="q11" value="Rock"> 🤘 Rock</label>
+    <label><input type="radio" name="q11" value="Cartoon"> 🔉 Cartoon boing soundeffect</label>
+    <button type="button" onclick="nextSlide()">Next</button>
+  </div>
+
+  <div class="slide">
+    <strong>14. Whats something i believe but can't prove?</strong><br>
+    <label><input type="radio" name="q12" value="Bed"> 🛌 My bed loves me back</label>
+    <label><input type="radio" name="q12" value="Brain"> 🧠 my brain works better when do nothing</label>
+    <label><input type="radio" name="q12" value="justin"> 👩‍🎤 my voice is like justin bieber</label>
+    <button type="button" onclick="nextSlide()">Next</button>
+  </div>
+
+  <div class="slide">
+    <strong>15. When I’m Stress, I usually...</strong><br>
+    <label><input type="radio" name="q13" value="music"> 🎧 Listen to music</label>
+    <label><input type="radio" name="q13" value="Crying"> 😭 Crying</label>
+    <label><input type="radio" name="q13" value="sleep"> 💤 Sleep it off</label>
     <button type="button" onclick="showResult()">See Result</button>
   </div>
 
@@ -167,7 +239,16 @@
       q1: "noodles",
       q2: "sleep",
       q3: "cat",
-      q4: "music"
+      q4: "strawberry",
+      q5: "singing",
+      q6: "cat",
+      q7: "i'm in",
+      q8: "hah",
+      q9: "stalking",
+      q10: "Laughing",
+      q11: "cartoon",
+      q12: "bed",
+      q13: "sleep"
     };
 
     let score = 0;
