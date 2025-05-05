@@ -205,7 +205,8 @@
   <h2>✨ Your Quiz Result ✨</h2>
   <p id="moodResult"></p>
   <p id="scoreResult"></p>
-  <p><strong><div class Just one more thing...</h2>
+  <p><strong><div 
+  <h2>Just one more thing...</h2>
   <p style="font-size: 1.1em; line-height: 1.6; text-align: center; padding: 0 20px;">
     Thank you for playing this silly little quiz.<br>
     I hope it made you smile, even just a little.<br><br>
@@ -216,8 +217,6 @@
     you got here, and that means the world to me.<br><br>
     <strong>I love you. Please keep going.</strong>
   </p>
-    
-</div>
 
 <div class="message-box" id="messageBox">
   <h3>📩 Send Me a Message!</h3>
