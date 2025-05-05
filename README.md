@@ -205,7 +205,7 @@
   <h2>✨ Your Quiz Result ✨</h2>
   <p id="moodResult"></p>
   <p id="scoreResult"></p>
-  <p><strong><div
+  <p><strong                  
   <h2>Just one more thing...</h2>
   <p style="font-size: 1.1em; line-height: 1.6; text-align: center; padding: 0 20px;">
     Thank you for playing this silly little quiz.<br>
